@@ -30,7 +30,7 @@ nas seguintes tecnologias:
 ## Requisitos para o Teste
 
 1. Fazer o fork deste projeto.
-2. No diretório layout tem um arquivo em XD com o layout de um "one page".
+2. No diretório layout tem um arquivo em XD com o layout de um "one page" que deverá ser baixado para fins de desenvolvimento. Caso queira pré-visualizar acesse o [Link](https://xd.adobe.com/view/161c17aa-5e0c-44de-652a-fe4293b21dc3-602d/?fullscreen&hints=off).
 3. No backend deverá usar as seguintes tecnologias: PHP 7.2+,
 [Bedrock](https://roots.io/bedrock/) com o tema [Sage](https://roots.io/sage/) e banco de dados MySQL 5.7+.
 4. No frontend deverá usar as seguintes tecnologias: Html5, CSS3 com Sass, JavaScript (preferencialmente ES6),
