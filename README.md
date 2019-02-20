@@ -30,16 +30,15 @@ nas seguintes tecnologias:
 ## Requisitos para o Teste
 
 1. Fazer o fork deste projeto.
-2. No diretório layout tem um arquivo em XD com o layout de um "one page" que deverá ser baixado para fins de desenvolvimento. Caso queira pré-visualizar acesse o [Link](https://xd.adobe.com/view/161c17aa-5e0c-44de-652a-fe4293b21dc3-602d/?fullscreen&hints=off).
-3. No backend deverá usar as seguintes tecnologias: PHP 7.2+,
+2. No diretório layout tem um arquivo em XD com o layout de uma "one page" que deverá ser baixado para fins de desenvolvimento. Caso queira pré-visualizar acesse o [Link](https://xd.adobe.com/view/161c17aa-5e0c-44de-652a-fe4293b21dc3-602d/?fullscreen&hints=off).
+3. No back-end deverá usar as seguintes tecnologias: PHP 7.2+,
 [Bedrock](https://roots.io/bedrock/) com o tema [Sage](https://roots.io/sage/) e banco de dados MySQL 5.7+.
-4. No frontend deverá usar as seguintes tecnologias: Html5, CSS3 com Sass, JavaScript (preferencialmente ES6),
+4. No front-end deverá usar as seguintes tecnologias: Html5, CSS3 com Sass, JavaScript (preferencialmente ES6),
 Yarn para compilar os assets e Bootstrap 4.1+.
-5. O conteúdo de texto do layout deverá ser preenchido pelo usuário no WordPress usando campos customizaveis
+5. O conteúdo de texto do layout deverá ser preenchido pelo usuário no WordPress usando campos customizáveis
 com o plugin [ACF](https://www.advancedcustomfields.com/). O formulário deverá ser criado usando o
 plugin [CF7](https://contactform7.com/).
-6. Os plugins deverão ser instalados via composer. Por isso, recomendamos usar o seguinte site para pesquisa-los
-[wpackagist](https://wpackagist.org/) e adiconar ao composer.json na raiz do projeto.
+6. Os plugins deverão ser instalados via composer, por isso recomendamos usar o site [wpackagist](https://wpackagist.org/) para pesquisa-los e adicionar ao composer.json na raiz do projeto.
 7. Ao final do projeto você deverá exportar o banco de dados em um arquivo .sql e adiciona-lo ao projeto.
 8. Para informar que concluiu o projeto, basta fazer um Pull Request para este repositório.
 Em caso de problemas, mandar o link do repositório.
