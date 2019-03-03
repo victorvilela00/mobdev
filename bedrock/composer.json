@@ -30,6 +30,10 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
     }
   ],
   "require": {
@@ -39,7 +43,8 @@
     "oscarotero/env": "^1.1.0",
     "roots/wordpress": "5.1",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/acf-2way-pr":"1.0.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
