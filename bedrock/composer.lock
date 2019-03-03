@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7bf2d7b892ce49386fa50ea2ebc58c43",
+    "content-hash": "4177799330a367fb1ed48bb84a46a128",
     "packages": [
         {
             "name": "composer/installers",
@@ -521,22 +521,22 @@
             "time": "2019-01-30T10:43:17+00:00"
         },
         {
-            "name": "wpackagist-plugin/acf-2way-pr",
-            "version": "1.0.3",
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "5.7.12",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/acf-2way-pr/",
-                "reference": "tags/1.0.3"
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/5.7.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-2way-pr.1.0.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.12.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/acf-2way-pr/"
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         }
     ],
     "packages-dev": [

@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+a {
+  transition: all 0.2s ease 0s;
+}
+
+.clear {
+  clear: both;
+}
+
+.banner {
+  height: 400px;
+  background: url(../images/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 70px;
+}
+
+.logo {
+  height: 25px;
+  width: 92px;
+  background: url(../images/logo.png);
+  background-position: center center;
+  display: inline-block;
+}
+
+.nav-primary {
+  float: right;
+}
+
+.nav-primary li {
+  margin-left: 5px;
+}
+
+.nav-primary li a {
+  padding: 7px 25px !important;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.nav-primary li.menu-item-11 a {
+  border: 1px solid #ff5800;
+  border-radius: 4px;
+}
+
+.nav-primary li a:hover {
+  color: #ff5800;
+}
+
+.nav-primary li.menu-item-11 a:hover {
+  background-color: #ff5800;
+  color: #fff;
+}
+
+.top-title {
+  margin-top: 120px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.secao1 {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
