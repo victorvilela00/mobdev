@@ -130,6 +130,52 @@ a {
   color: #fff;
 }
 
+.secao2 .carousel {
+  margin-top: 20px;
+}
+
+.secao2 .carousel .carousel-control-prev {
+  left: -80px;
+}
+
+.secao2 .carousel .carousel-control-next {
+  right: -80px;
+}
+
+.secao2 .carousel .carousel-control-next-icon {
+  background-image: url(../images/next.png);
+  width: 23px;
+  height: 47px;
+}
+
+.secao2 .carousel .carousel-inner {
+  border-radius: 4px;
+}
+
+.secao2 .carousel .carousel-indicators {
+  bottom: -65px;
+}
+
+.secao2 .carousel .carousel-indicators li {
+  background-color: #747474;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.secao2 .carousel .carousel-indicators li.active {
+  background-color: #ff5800;
+}
+
+.secao2 .carousel .carousel-control-prev-icon {
+  background-image: url(../images/prev.png);
+  width: 23px;
+  height: 47px;
+}
+
 .form-box {
   background-color: #999;
   position: fixed;
