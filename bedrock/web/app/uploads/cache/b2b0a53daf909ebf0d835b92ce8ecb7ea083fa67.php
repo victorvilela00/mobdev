@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="col-md-4 offset-md-6 form-box">
-            testando...
+            <?php echo do_shortcode('[contact-form-7 id="55" title="Form Página Principal"]') ?>
         </div>
     </div>
   </div>
