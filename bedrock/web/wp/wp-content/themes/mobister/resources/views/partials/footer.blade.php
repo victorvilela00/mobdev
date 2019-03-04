@@ -39,8 +39,10 @@
   <div class="rodape">
     <div class="container">
       <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-4">
             <span>© 2019 DOT Ltda. Todos os direitos reservados.</span>
+          </div>
+          <div class="col-md-2">
             <a href="#" style="color: #747474; font-size: 12px; text-decoration: underline">Política de privacidade</a>
           </div>
       </div>
