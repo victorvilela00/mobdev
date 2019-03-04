@@ -14,7 +14,7 @@
         </div>
         <div class="clear"></div>
         <div class="col-md-8">
-          <h1 class="top-title">{!! App::title() !!}</h1>
+          <h1 class="top-title"><?php the_field('titulo') ?></h1>
         </div>
     </div>
   </div>
