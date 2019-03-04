@@ -37,6 +37,14 @@ a {
   text-align: center;
 }
 
+.container-form {
+  position: fixed;
+  top: 175px;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
 .banner {
   height: 400px;
   background: url(../images/bg-top.jpg);
@@ -63,7 +71,7 @@ a {
 
 .nav-primary li a {
   padding: 7px 20px !important;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -77,6 +85,31 @@ a {
   padding: 7px 27px !important;
   border: 1px solid #ff5800;
   border-radius: 4px;
+}
+
+.menu-fixo {
+  transition: all 0.2s ease 0s;
+  top: -77px;
+  z-index: 9999;
+  padding-top: 23px;
+  padding-bottom: 26px;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 1.5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-fixo .logo {
+  height: 25px;
+  width: 92px;
+  background: url(../images/logo2.png);
+  background-position: center center;
+  display: inline-block;
+}
+
+.menu-fixo .nav-primary li a {
+  color: #3b3b3b;
+  text-decoration: none;
 }
 
 .nav-primary li a:hover {
@@ -183,18 +216,31 @@ a {
 
 .form-box {
   background-color: #f4f5f8;
-  position: fixed;
-  float: right !important;
-  top: 200px;
   border-radius: 10px;
 }
 
+.wpcf7 {
+  width: 100%;
+}
+
 .form-box .wpcf7-form {
-  padding: 30px;
+  padding: 20px 36px 31px 36px;
+}
+
+.form-box .box-title {
+  padding: 29px 36px 20px 36px;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.form-box .box-title h2 {
+  margin-bottom: 1px;
+  margin-top: 1px;
 }
 
 .form-box .wpcf7-form .ajax-loader {
-  margin: none;
+  display: none;
 }
 
 .form-box .wpcf7-form label {
@@ -210,7 +256,7 @@ a {
   padding: 7px 10px;
   line-height: initial;
   color: #747474;
-  font-size: 17px;
+  font-size: 16px;
   border: none;
   border-radius: 5px;
   background-color: #fff;
@@ -229,6 +275,7 @@ a {
   background-color: #ff5800;
   border-bottom: 5px solid #c64400;
   color: #fff;
+  margin-top: 15px;
 }
 
 .form-box .wpcf7-form input[type=submit]:hover {

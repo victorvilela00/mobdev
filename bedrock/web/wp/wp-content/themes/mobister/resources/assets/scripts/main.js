@@ -22,3 +22,15 @@ const routes = new Router({
 
 // Load Events
 jQuery(document).ready(() => routes.loadEvents());
+
+var $w = $(window);
+
+$w.on('scroll', function(){
+   if( $w.scrollTop() > 350 ) {
+      //$('.menu-fixo').css('visibility', 'visible');
+      $('.menu-fixo').css('top', '0');
+   }
+   if( $w.scrollTop() < 340 ) {
+    $('.menu-fixo').css('top', '-77px');
+ }
+});

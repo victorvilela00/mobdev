@@ -4,6 +4,17 @@
 
 @extends('layouts.app')
 
+<div class="container container-form">
+  <div class="col-md-5 offset-md-7 form-box">
+    <div class="row">
+      <div class="box-title">
+        <h2>Insira aqui seus dados:</h2>
+      </div>
+        <?php echo do_shortcode('[contact-form-7 id="55" title="Form Página Principal"]') ?>
+    </div>
+  </div>
+</div>
+
 @section('content')
 
 <div class="secao secao1">
@@ -28,9 +39,6 @@
                   <h3><?php the_field('titulo_da_imagem_3_secao_1') ?></h3>
               </div>
           </div>
-        </div>
-        <div class="col-md-4 offset-md-6 form-box">
-            <?php echo do_shortcode('[contact-form-7 id="55" title="Form Página Principal"]') ?>
         </div>
     </div>
   </div>
