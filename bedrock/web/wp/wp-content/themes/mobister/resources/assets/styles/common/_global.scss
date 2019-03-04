@@ -19,6 +19,10 @@ h2 {
   font-size: 30px;
 }
 
+h4 {
+  font-size: 16px;
+}
+
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -29,12 +33,25 @@ a {
   transition: all 0.2s ease 0s;
 }
 
+.icon {
+  margin-right: 8px;
+  margin-top: -5px;
+}
+
 .clear {
   clear: both;
 }
 
 .center {
   text-align: center;
+}
+
+.horizontal-separator {
+  height: 1px;
+  background-color: #e0e0e0;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .container-form {
@@ -154,6 +171,19 @@ a {
   width: 1px;
   background-color: #e0e0e0;
   float: left;
+}
+
+ul.onde-estamos {
+  float: left;
+  margin-right: 70px;
+  padding: 0;
+}
+
+ul.onde-estamos li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  list-style: none;
+  margin-left: 0;
 }
 
 .secao2 {
@@ -285,8 +315,8 @@ a {
 }
 
 .form-box .wpcf7-form input[type=submit]:focus {
-  background-color: #d44900;
-  border-bottom: 5px solid #c64400;
+  background-color: #c64400;
+  border-bottom: 5px solid #ff5800;
   color: #fff;
 }
 
@@ -296,3 +326,14 @@ a {
   color: #ff5800;
 }
 
+.rodape {
+  border-top: 1px solid #e0e0e0;
+  background-color: #f4f5f8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.rodape span {
+  color: #747474 !important;
+  font-size: 12px !important;
+}
