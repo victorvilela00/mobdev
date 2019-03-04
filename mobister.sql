@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 03-Mar-2019 às 23:36
+-- Generation Time: 04-Mar-2019 às 02:53
 -- Versão do servidor: 10.1.38-MariaDB
 -- versão do PHP: 7.3.2
 
@@ -218,7 +218,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (112, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (113, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (114, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(115, 'cron', 'a:5:{i:1551653912;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1551682712;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1551682726;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1551682728;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
+(115, 'cron', 'a:5:{i:1551664712;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1551682712;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1551682726;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1551682728;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
 (116, 'theme_mods_twentynineteen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1551597224;s:4:\"data\";a:2:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}}}}', 'yes'),
 (118, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:63:\"https://downloads.wordpress.org/release/pt_BR/wordpress-5.1.zip\";s:6:\"locale\";s:5:\"pt_BR\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:63:\"https://downloads.wordpress.org/release/pt_BR/wordpress-5.1.zip\";s:10:\"no_content\";b:0;s:11:\"new_bundled\";b:0;s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:3:\"5.1\";s:7:\"version\";s:3:\"5.1\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.0\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1551645636;s:15:\"version_checked\";s:3:\"5.1\";s:12:\"translations\";a:0:{}}', 'no'),
 (119, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1551645633;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:1:{s:30:\"advanced-custom-fields/acf.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:36:\"w.org/plugins/advanced-custom-fields\";s:4:\"slug\";s:22:\"advanced-custom-fields\";s:6:\"plugin\";s:30:\"advanced-custom-fields/acf.php\";s:11:\"new_version\";s:6:\"5.7.12\";s:3:\"url\";s:53:\"https://wordpress.org/plugins/advanced-custom-fields/\";s:7:\"package\";s:72:\"https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.12.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:75:\"https://ps.w.org/advanced-custom-fields/assets/icon-256x256.png?rev=1082746\";s:2:\"1x\";s:75:\"https://ps.w.org/advanced-custom-fields/assets/icon-128x128.png?rev=1082746\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:78:\"https://ps.w.org/advanced-custom-fields/assets/banner-1544x500.jpg?rev=1729099\";s:2:\"1x\";s:77:\"https://ps.w.org/advanced-custom-fields/assets/banner-772x250.jpg?rev=1729102\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no'),
@@ -329,7 +329,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (58, 11, '_menu_item_xfn', ''),
 (59, 11, '_menu_item_url', '#'),
 (61, 15, '_edit_last', '1'),
-(62, 15, '_edit_lock', '1551647316:1'),
+(62, 15, '_edit_lock', '1551659423:1'),
 (63, 2, '_edit_last', '1'),
 (64, 2, 'titulo_pagina_inicial', 'teste'),
 (65, 2, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
@@ -339,7 +339,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (69, 2, '_wp_trash_meta_time', '1551645842'),
 (70, 2, '_wp_desired_post_slug', 'pagina-exemplo'),
 (71, 3, '_edit_lock', '1551646021:1'),
-(72, 19, '_edit_lock', '1551648107:1'),
+(72, 19, '_edit_lock', '1551664380:1'),
 (73, 21, '_wp_trash_meta_status', 'publish'),
 (74, 21, '_wp_trash_meta_time', '1551646224'),
 (75, 19, '_wp_page_template', 'views/pagina-inicial.blade.php'),
@@ -359,7 +359,128 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (89, 29, 'titulo_pagina_inicial', 'teste123'),
 (90, 29, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
 (91, 29, 'titulo_secao1', 'O que você vai aprender'),
-(92, 29, '_titulo_secao1', 'field_5c7c4252c2eaf');
+(92, 29, '_titulo_secao1', 'field_5c7c4252c2eaf'),
+(93, 33, '_edit_lock', '1551653257:1'),
+(94, 19, 'titulo', 'How to accomplish'),
+(95, 19, '_titulo', 'field_5c7c591c9ca0a'),
+(96, 19, 'texto_secao1', 'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip commodo consequat.'),
+(97, 19, '_texto_secao1', 'field_5c7c5895680fb'),
+(98, 35, 'titulo_pagina_inicial', 'teste123'),
+(99, 35, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
+(100, 35, 'titulo_secao1', 'O que você vai aprender'),
+(101, 35, '_titulo_secao1', 'field_5c7c4252c2eaf'),
+(102, 35, 'titulo', 'How to accomplish'),
+(103, 35, '_titulo', 'field_5c7c591c9ca0a'),
+(104, 35, 'texto_secao1', ''),
+(105, 35, '_texto_secao1', 'field_5c7c5895680fb'),
+(106, 36, 'titulo_pagina_inicial', 'teste123'),
+(107, 36, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
+(108, 36, 'titulo_secao1', 'O que você vai aprender'),
+(109, 36, '_titulo_secao1', 'field_5c7c4252c2eaf'),
+(110, 36, 'titulo', 'How to accomplish'),
+(111, 36, '_titulo', 'field_5c7c591c9ca0a'),
+(112, 36, 'texto_secao1', 'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip commodo consequat.'),
+(113, 36, '_texto_secao1', 'field_5c7c5895680fb'),
+(114, 38, '_wp_attached_file', '2019/03/img1.png'),
+(115, 38, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:50;s:6:\"height\";i:50;s:4:\"file\";s:16:\"2019/03/img1.png\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(116, 19, 'imagem_1_secao_1', '38'),
+(117, 19, '_imagem_1_secao_1', 'field_5c7c5e582ce06'),
+(118, 39, 'titulo_pagina_inicial', 'teste123'),
+(119, 39, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
+(120, 39, 'titulo_secao1', 'O que você vai aprender'),
+(121, 39, '_titulo_secao1', 'field_5c7c4252c2eaf'),
+(122, 39, 'titulo', 'How to accomplish'),
+(123, 39, '_titulo', 'field_5c7c591c9ca0a'),
+(124, 39, 'texto_secao1', 'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip commodo consequat.'),
+(125, 39, '_texto_secao1', 'field_5c7c5895680fb'),
+(126, 39, 'imagem_1_secao_1', '38'),
+(127, 39, '_imagem_1_secao_1', 'field_5c7c5e582ce06'),
+(128, 19, 'titulo_da_imagem_1_secao_1', 'Global thinking'),
+(129, 19, '_titulo_da_imagem_1_secao_1', 'field_5c7c640228c6e'),
+(130, 41, 'titulo_pagina_inicial', 'teste123'),
+(131, 41, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
+(132, 41, 'titulo_secao1', 'O que você vai aprender'),
+(133, 41, '_titulo_secao1', 'field_5c7c4252c2eaf'),
+(134, 41, 'titulo', 'How to accomplish'),
+(135, 41, '_titulo', 'field_5c7c591c9ca0a'),
+(136, 41, 'texto_secao1', 'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip commodo consequat.'),
+(137, 41, '_texto_secao1', 'field_5c7c5895680fb'),
+(138, 41, 'imagem_1_secao_1', '38'),
+(139, 41, '_imagem_1_secao_1', 'field_5c7c5e582ce06'),
+(140, 41, 'titulo_da_imagem_1_secao_1', 'Global thinking'),
+(141, 41, '_titulo_da_imagem_1_secao_1', 'field_5c7c640228c6e'),
+(142, 42, 'titulo_pagina_inicial', 'teste123'),
+(143, 42, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
+(144, 42, 'titulo_secao1', 'O que você vai aprender'),
+(145, 42, '_titulo_secao1', 'field_5c7c4252c2eaf'),
+(146, 42, 'titulo', 'How to accomplish'),
+(147, 42, '_titulo', 'field_5c7c591c9ca0a'),
+(148, 42, 'texto_secao1', 'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip commodo consequat.'),
+(149, 42, '_texto_secao1', 'field_5c7c5895680fb'),
+(150, 42, 'imagem_1_secao_1', '38'),
+(151, 42, '_imagem_1_secao_1', 'field_5c7c5e582ce06'),
+(152, 42, 'titulo_da_imagem_1_secao_1', 'Global thinking'),
+(153, 42, '_titulo_da_imagem_1_secao_1', 'field_5c7c640228c6e'),
+(154, 48, '_wp_attached_file', '2019/03/img2.png'),
+(155, 48, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:51;s:6:\"height\";i:50;s:4:\"file\";s:16:\"2019/03/img2.png\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(156, 49, '_wp_attached_file', '2019/03/img3.png'),
+(157, 49, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:50;s:6:\"height\";i:50;s:4:\"file\";s:16:\"2019/03/img3.png\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(158, 19, 'imagem_2_secao_1', '48'),
+(159, 19, '_imagem_2_secao_1', 'field_5c7c6512e43b4'),
+(160, 19, 'titulo_da_imagem_2_secao_1', 'Mind setting'),
+(161, 19, '_titulo_da_imagem_2_secao_1', 'field_5c7c655ed3ce8'),
+(162, 19, 'imagem_3_secao_1', '49'),
+(163, 19, '_imagem_3_secao_1', 'field_5c7c65718ef2b'),
+(164, 19, 'titulo_da_imagem_3_secao_1', 'Your future'),
+(165, 19, '_titulo_da_imagem_3_secao_1', 'field_5c7c659089d92'),
+(166, 50, 'titulo_pagina_inicial', 'teste123'),
+(167, 50, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
+(168, 50, 'titulo_secao1', 'O que você vai aprender'),
+(169, 50, '_titulo_secao1', 'field_5c7c4252c2eaf'),
+(170, 50, 'titulo', 'How to accomplish'),
+(171, 50, '_titulo', 'field_5c7c591c9ca0a'),
+(172, 50, 'texto_secao1', 'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip commodo consequat.'),
+(173, 50, '_texto_secao1', 'field_5c7c5895680fb'),
+(174, 50, 'imagem_1_secao_1', '38'),
+(175, 50, '_imagem_1_secao_1', 'field_5c7c5e582ce06'),
+(176, 50, 'titulo_da_imagem_1_secao_1', 'Global thinking'),
+(177, 50, '_titulo_da_imagem_1_secao_1', 'field_5c7c640228c6e'),
+(178, 50, 'imagem_2_secao_1', '48'),
+(179, 50, '_imagem_2_secao_1', 'field_5c7c6512e43b4'),
+(180, 50, 'titulo_da_imagem_2_secao_1', 'Mind setting'),
+(181, 50, '_titulo_da_imagem_2_secao_1', 'field_5c7c655ed3ce8'),
+(182, 50, 'imagem_3_secao_1', '49'),
+(183, 50, '_imagem_3_secao_1', 'field_5c7c65718ef2b'),
+(184, 50, 'titulo_da_imagem_3_secao_1', 'Your future'),
+(185, 50, '_titulo_da_imagem_3_secao_1', 'field_5c7c659089d92'),
+(186, 19, 'titulo_secao2', 'Conheça nossa estrutura'),
+(187, 19, '_titulo_secao2', 'field_5c7c717e5becd'),
+(188, 19, 'texto_secao2', 'Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.'),
+(189, 19, '_texto_secao2', 'field_5c7c7191cc03b'),
+(190, 53, 'titulo_pagina_inicial', 'teste123'),
+(191, 53, '_titulo_pagina_inicial', 'field_5c7c33d78cdc4'),
+(192, 53, 'titulo_secao1', 'O que você vai aprender'),
+(193, 53, '_titulo_secao1', 'field_5c7c4252c2eaf'),
+(194, 53, 'titulo', 'How to accomplish'),
+(195, 53, '_titulo', 'field_5c7c591c9ca0a'),
+(196, 53, 'texto_secao1', 'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip commodo consequat.'),
+(197, 53, '_texto_secao1', 'field_5c7c5895680fb'),
+(198, 53, 'imagem_1_secao_1', '38'),
+(199, 53, '_imagem_1_secao_1', 'field_5c7c5e582ce06'),
+(200, 53, 'titulo_da_imagem_1_secao_1', 'Global thinking'),
+(201, 53, '_titulo_da_imagem_1_secao_1', 'field_5c7c640228c6e'),
+(202, 53, 'imagem_2_secao_1', '48'),
+(203, 53, '_imagem_2_secao_1', 'field_5c7c6512e43b4'),
+(204, 53, 'titulo_da_imagem_2_secao_1', 'Mind setting'),
+(205, 53, '_titulo_da_imagem_2_secao_1', 'field_5c7c655ed3ce8'),
+(206, 53, 'imagem_3_secao_1', '49'),
+(207, 53, '_imagem_3_secao_1', 'field_5c7c65718ef2b'),
+(208, 53, 'titulo_da_imagem_3_secao_1', 'Your future'),
+(209, 53, '_titulo_da_imagem_3_secao_1', 'field_5c7c659089d92'),
+(210, 53, 'titulo_secao2', 'Conheça nossa estrutura'),
+(211, 53, '_titulo_secao2', 'field_5c7c717e5becd'),
+(212, 53, 'texto_secao2', 'Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.'),
+(213, 53, '_texto_secao2', 'field_5c7c7191cc03b');
 
 -- --------------------------------------------------------
 
@@ -410,17 +531,39 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (11, 1, '2019-03-03 07:12:12', '2019-03-03 10:12:12', '', 'Contato', '', 'publish', 'closed', 'closed', '', 'contato', '', '', '2019-03-03 07:12:12', '2019-03-03 10:12:12', '', 0, 'http://localhost/mobdev/bedrock/web/?p=11', 4, 'nav_menu_item', '', 0),
 (12, 1, '2019-03-03 15:44:03', '2019-03-03 18:44:03', '<!-- wp:paragraph -->\n<p>Esta é uma página de exemplo. É diferente de um post no blog porque ela permanecerá em um lugar e aparecerá na navegação do seu site na maioria dos temas. Muitas pessoas começam com uma página que as apresenta a possíveis visitantes do site. Ela pode dizer algo assim:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Olá! Eu sou um mensageiro de bicicleta durante o dia, ator aspirante à noite, e este é o meu site. Eu moro em São Paulo, tenho um grande cachorro chamado Rex e gosto de tomar caipirinha (e banhos de chuva).</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>...ou alguma coisa assim:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>A Companhia de Miniaturas XYZ foi fundada em 1971, e desde então tem fornecido miniaturas de qualidade ao público. Localizada na cidade de Itu, a XYZ emprega mais de 2.000 pessoas e faz coisas grandiosas para a comunidade da cidade.</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>Como um novo usuário do WordPress, você deveria ir ao <a href=\"http://localhost/mobdev/bedrock/web/wp/wp-admin/\">painel</a> para excluir essa página e criar novas páginas para o seu conteúdo. Divirta-se!</p>\n<!-- /wp:paragraph -->', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2019-03-03 15:44:03', '2019-03-03 18:44:03', '', 2, 'http://localhost/mobdev/bedrock/web/2019/03/03/2-revision-v1/', 0, 'revision', '', 0),
 (13, 1, '2019-03-03 15:44:30', '2019-03-03 18:44:30', '<!-- wp:paragraph -->\n<p>Esta é uma página de exemplo. É diferente de um post no blog porque ela permanecerá em um lugar e aparecerá na navegação do seu site na maioria dos temas. Muitas pessoas começam com uma página que as apresenta a possíveis visitantes do site. Ela pode dizer algo assim:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Olá! Eu sou um mensageiro de bicicleta durante o dia, ator aspirante à noite, e este é o meu site. Eu moro em São Paulo, tenho um grande cachorro chamado Rex e gosto de tomar caipirinha (e banhos de chuva).</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>...ou alguma coisa assim:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>A Companhia de Miniaturas XYZ foi fundada em 1971, e desde então tem fornecido miniaturas de qualidade ao público. Localizada na cidade de Itu, a XYZ emprega mais de 2.000 pessoas e faz coisas grandiosas para a comunidade da cidade.</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph {\"dropCap\":true} -->\n<p class=\"has-drop-cap\">Como um novo usuário do WordPress, você deveria ir ao <a href=\"http://localhost/mobdev/bedrock/web/wp/wp-admin/\">painel</a> para excluir essa página e criar novas páginas para o seu conteúdo. Divirta-se!</p>\n<!-- /wp:paragraph -->', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2019-03-03 15:44:30', '2019-03-03 18:44:30', '', 2, 'http://localhost/mobdev/bedrock/web/2019/03/03/2-revision-v1/', 0, 'revision', '', 0),
-(15, 1, '2019-03-03 17:09:35', '2019-03-03 20:09:35', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"page_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:10:\"front_page\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";}', 'Página inicial', 'pagina-inicial', 'publish', 'closed', 'closed', '', 'group_5c7c33cbbbe49', '', '', '2019-03-03 18:10:46', '2019-03-03 21:10:46', '', 0, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field-group&#038;p=15', 0, 'acf-field-group', '', 0),
+(15, 1, '2019-03-03 17:09:35', '2019-03-03 20:09:35', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"page_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:10:\"front_page\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";}', 'Página inicial', 'pagina-inicial', 'publish', 'closed', 'closed', '', 'group_5c7c33cbbbe49', '', '', '2019-03-03 21:31:06', '2019-03-04 00:31:06', '', 0, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field-group&#038;p=15', 0, 'acf-field-group', '', 0),
 (18, 1, '2019-03-03 17:34:17', '2019-03-03 20:34:17', '<!-- wp:paragraph -->\n<p>Esta é uma página de exemplo. É diferente de um post no blog porque ela permanecerá em um lugar e aparecerá na navegação do seu site na maioria dos temas. Muitas pessoas começam com uma página que as apresenta a possíveis visitantes do site. Ela pode dizer algo assim:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Olá! Eu sou um mensageiro de bicicleta durante o dia, ator aspirante à noite, e este é o meu site. Eu moro em São Paulo, tenho um grande cachorro chamado Rex e gosto de tomar caipirinha (e banhos de chuva).</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>...ou alguma coisa assim:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>A Companhia de Miniaturas XYZ foi fundada em 1971, e desde então tem fornecido miniaturas de qualidade ao público. Localizada na cidade de Itu, a XYZ emprega mais de 2.000 pessoas e faz coisas grandiosas para a comunidade da cidade.</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph {\"dropCap\":true} -->\n<p class=\"has-drop-cap\">Como um novo usuário do WordPress, você deveria ir ao <a href=\"http://localhost:3000/mobdev/bedrock/web/wp/wp-admin/\">painel</a> para excluir essa página e criar novas páginas para o seu conteúdo. Divirta-se!</p>\n<!-- /wp:paragraph -->', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2019-03-03 17:34:17', '2019-03-03 20:34:17', '', 2, 'http://localhost/mobdev/bedrock/web/2019/03/03/2-revision-v1/', 0, 'revision', '', 0),
-(19, 1, '2019-03-03 17:49:39', '2019-03-03 20:49:39', '', 'How to accomplish', '', 'publish', 'closed', 'closed', '', 'teste', '', '', '2019-03-03 18:11:36', '2019-03-03 21:11:36', '', 0, 'http://localhost/mobdev/bedrock/web/?page_id=19', 0, 'page', '', 0),
+(19, 1, '2019-03-03 17:49:39', '2019-03-03 20:49:39', '', 'Página Inicial', '', 'publish', 'closed', 'closed', '', 'teste', '', '', '2019-03-03 21:33:09', '2019-03-04 00:33:09', '', 0, 'http://localhost/mobdev/bedrock/web/?page_id=19', 0, 'page', '', 0),
 (20, 1, '2019-03-03 17:49:39', '2019-03-03 20:49:39', '<!-- wp:paragraph -->\n<p>teste...</p>\n<!-- /wp:paragraph -->', 'teste', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 17:49:39', '2019-03-03 20:49:39', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
 (21, 1, '2019-03-03 17:50:23', '2019-03-03 20:50:23', '{\n    \"show_on_front\": {\n        \"value\": \"page\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-03-03 20:50:23\"\n    },\n    \"page_on_front\": {\n        \"value\": \"19\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-03-03 20:50:23\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'adbc6199-826d-457a-8b1e-0453eb3488b0', '', '', '2019-03-03 17:50:23', '2019-03-03 20:50:23', '', 0, 'http://localhost/mobdev/bedrock/web/2019/03/03/adbc6199-826d-457a-8b1e-0453eb3488b0/', 0, 'customize_changeset', '', 0),
 (22, 1, '2019-03-03 17:56:42', '2019-03-03 20:56:42', '<!-- wp:paragraph -->\n<p>teste...</p>\n<!-- /wp:paragraph -->', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 17:56:42', '2019-03-03 20:56:42', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
 (23, 1, '2019-03-03 17:57:02', '2019-03-03 20:57:02', '<!-- wp:paragraph -->\n<p>teste...</p>\n<!-- /wp:paragraph -->', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 17:57:02', '2019-03-03 20:57:02', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
 (25, 1, '2019-03-03 18:05:33', '2019-03-03 21:05:33', '', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 18:05:33', '2019-03-03 21:05:33', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
 (26, 1, '2019-03-03 18:05:34', '2019-03-03 21:05:34', '', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 18:05:34', '2019-03-03 21:05:34', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
-(27, 1, '2019-03-03 18:10:35', '2019-03-03 21:10:35', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Título - Seção 1', 'titulo_secao1', 'publish', 'closed', 'closed', '', 'field_5c7c4252c2eaf', '', '', '2019-03-03 18:10:45', '2019-03-03 21:10:45', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=27', 0, 'acf-field', '', 0),
-(29, 1, '2019-03-03 18:11:36', '2019-03-03 21:11:36', '', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 18:11:36', '2019-03-03 21:11:36', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0);
+(27, 1, '2019-03-03 18:10:35', '2019-03-03 21:10:35', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Título - Seção 1', 'titulo_secao1', 'publish', 'closed', 'closed', '', 'field_5c7c4252c2eaf', '', '', '2019-03-03 19:46:11', '2019-03-03 22:46:11', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=27', 1, 'acf-field', '', 0),
+(29, 1, '2019-03-03 18:11:36', '2019-03-03 21:11:36', '', 'How to accomplish', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 18:11:36', '2019-03-03 21:11:36', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
+(30, 1, '2019-03-03 19:44:04', '2019-03-03 22:44:04', 'a:10:{s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";s:4:\"rows\";s:0:\"\";s:9:\"new_lines\";s:0:\"\";}', 'Texto - Seção1', 'texto_secao1', 'publish', 'closed', 'closed', '', 'field_5c7c5895680fb', '', '', '2019-03-03 21:30:18', '2019-03-04 00:30:18', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=30', 2, 'acf-field', '', 0),
+(31, 1, '2019-03-03 19:46:02', '2019-03-03 22:46:02', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Título', 'titulo', 'publish', 'closed', 'closed', '', 'field_5c7c591c9ca0a', '', '', '2019-03-03 19:46:11', '2019-03-03 22:46:11', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=31', 0, 'acf-field', '', 0),
+(33, 1, '2019-03-03 19:47:37', '0000-00-00 00:00:00', '', 'Rascunho automático', '', 'auto-draft', 'open', 'open', '', '', '', '', '2019-03-03 19:47:37', '0000-00-00 00:00:00', '', 0, 'http://localhost/mobdev/bedrock/web/?p=33', 0, 'post', '', 0),
+(34, 1, '2019-03-03 19:47:51', '2019-03-03 22:47:51', '', 'Página Inicial', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 19:47:51', '2019-03-03 22:47:51', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
+(35, 1, '2019-03-03 19:47:52', '2019-03-03 22:47:52', '', 'Página Inicial', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 19:47:52', '2019-03-03 22:47:52', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
+(36, 1, '2019-03-03 19:48:13', '2019-03-03 22:48:13', '', 'Página Inicial', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 19:48:13', '2019-03-03 22:48:13', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
+(37, 1, '2019-03-03 20:11:28', '2019-03-03 23:11:28', 'a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:3:\"url\";s:12:\"preview_size\";s:9:\"thumbnail\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'Imagem 1 - Seção 1', 'imagem_1_secao_1', 'publish', 'closed', 'closed', '', 'field_5c7c5e582ce06', '', '', '2019-03-03 21:31:05', '2019-03-04 00:31:05', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=37', 3, 'acf-field', '', 0),
+(38, 1, '2019-03-03 20:13:37', '2019-03-03 23:13:37', '', 'img1', '', 'inherit', 'open', 'closed', '', 'img1', '', '', '2019-03-03 20:13:37', '2019-03-03 23:13:37', '', 19, 'http://localhost/mobdev/bedrock/web/app/uploads/2019/03/img1.png', 0, 'attachment', 'image/png', 0),
+(39, 1, '2019-03-03 20:15:10', '2019-03-03 23:15:10', '', 'Página Inicial', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 20:15:10', '2019-03-03 23:15:10', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
+(40, 1, '2019-03-03 20:33:03', '2019-03-03 23:33:03', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Título da Imagem 1 - Seção 1', 'titulo_da_imagem_1_secao_1', 'publish', 'closed', 'closed', '', 'field_5c7c640228c6e', '', '', '2019-03-03 21:31:05', '2019-03-04 00:31:05', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=40', 4, 'acf-field', '', 0),
+(41, 1, '2019-03-03 20:33:54', '2019-03-03 23:33:54', '', 'Página Inicial', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 20:33:54', '2019-03-03 23:33:54', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
+(42, 1, '2019-03-03 20:35:20', '2019-03-03 23:35:20', '', 'Página Inicial', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 20:35:20', '2019-03-03 23:35:20', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
+(43, 1, '2019-03-03 20:37:21', '2019-03-03 23:37:21', 'a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:3:\"url\";s:12:\"preview_size\";s:9:\"thumbnail\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'Imagem 2 - Seção 1', 'imagem_2_secao_1', 'publish', 'closed', 'closed', '', 'field_5c7c6512e43b4', '', '', '2019-03-03 21:31:05', '2019-03-04 00:31:05', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=43', 5, 'acf-field', '', 0),
+(45, 1, '2019-03-03 20:38:17', '2019-03-03 23:38:17', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Título da Imagem 2 - Seção 1', 'titulo_da_imagem_2_secao_1', 'publish', 'closed', 'closed', '', 'field_5c7c655ed3ce8', '', '', '2019-03-03 21:31:05', '2019-03-04 00:31:05', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=45', 6, 'acf-field', '', 0),
+(46, 1, '2019-03-03 20:38:45', '2019-03-03 23:38:45', 'a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:3:\"url\";s:12:\"preview_size\";s:9:\"thumbnail\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'Imagem 3 - Seção 1', 'imagem_3_secao_1', 'publish', 'closed', 'closed', '', 'field_5c7c65718ef2b', '', '', '2019-03-03 21:31:05', '2019-03-04 00:31:05', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=46', 7, 'acf-field', '', 0),
+(47, 1, '2019-03-03 20:39:18', '2019-03-03 23:39:18', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Título da Imagem 3 - Seção 1', 'titulo_da_imagem_3_secao_1', 'publish', 'closed', 'closed', '', 'field_5c7c659089d92', '', '', '2019-03-03 21:31:05', '2019-03-04 00:31:05', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=47', 8, 'acf-field', '', 0),
+(48, 1, '2019-03-03 20:42:56', '2019-03-03 23:42:56', '', 'img2', '', 'inherit', 'open', 'closed', '', 'img2', '', '', '2019-03-03 20:42:56', '2019-03-03 23:42:56', '', 19, 'http://localhost/mobdev/bedrock/web/app/uploads/2019/03/img2.png', 0, 'attachment', 'image/png', 0),
+(49, 1, '2019-03-03 21:00:44', '2019-03-04 00:00:44', '', 'img3', '', 'inherit', 'open', 'closed', '', 'img3', '', '', '2019-03-03 21:00:44', '2019-03-04 00:00:44', '', 19, 'http://localhost/mobdev/bedrock/web/app/uploads/2019/03/img3.png', 0, 'attachment', 'image/png', 0),
+(50, 1, '2019-03-03 21:01:07', '2019-03-04 00:01:07', '', 'Página Inicial', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 21:01:07', '2019-03-04 00:01:07', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0),
+(51, 1, '2019-03-03 21:30:01', '2019-03-04 00:30:01', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Título - Seção 2', 'titulo_secao2', 'publish', 'closed', 'closed', '', 'field_5c7c717e5becd', '', '', '2019-03-03 21:31:05', '2019-03-04 00:31:05', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=51', 9, 'acf-field', '', 0),
+(52, 1, '2019-03-03 21:30:18', '2019-03-04 00:30:18', 'a:10:{s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";s:4:\"rows\";s:0:\"\";s:9:\"new_lines\";s:0:\"\";}', 'Texto - Seção2', 'texto_secao2', 'publish', 'closed', 'closed', '', 'field_5c7c7191cc03b', '', '', '2019-03-03 21:31:05', '2019-03-04 00:31:05', '', 15, 'http://localhost/mobdev/bedrock/web/?post_type=acf-field&#038;p=52', 10, 'acf-field', '', 0),
+(53, 1, '2019-03-03 21:33:09', '2019-03-04 00:33:09', '', 'Página Inicial', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2019-03-03 21:33:09', '2019-03-04 00:33:09', '', 19, 'http://localhost/mobdev/bedrock/web/2019/03/03/19-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -540,7 +683,9 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (19, 1, 'metaboxhidden_nav-menus', 'a:1:{i:0;s:12:\"add-post_tag\";}'),
 (20, 1, 'nav_menu_recently_edited', '2'),
 (21, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}'),
-(22, 1, 'session_tokens', 'a:2:{s:64:\"6377dbfc4a094374bdf67abd99eacee574122ee73f30213fa2e35ad19aae1f54\";a:4:{s:10:\"expiration\";i:1551818423;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36\";s:5:\"login\";i:1551645623;}s:64:\"834c81696dfe3852c24db710ae3b437f1f1cec191f797153906dd69406a3be0a\";a:4:{s:10:\"expiration\";i:1551825250;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:78:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0\";s:5:\"login\";i:1551652450;}}');
+(22, 1, 'session_tokens', 'a:2:{s:64:\"6377dbfc4a094374bdf67abd99eacee574122ee73f30213fa2e35ad19aae1f54\";a:4:{s:10:\"expiration\";i:1551818423;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36\";s:5:\"login\";i:1551645623;}s:64:\"834c81696dfe3852c24db710ae3b437f1f1cec191f797153906dd69406a3be0a\";a:4:{s:10:\"expiration\";i:1551825250;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:78:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0\";s:5:\"login\";i:1551652450;}}'),
+(23, 1, 'wp_user-settings', 'libraryContent=browse'),
+(24, 1, 'wp_user-settings-time', '1551654908');
 
 -- --------------------------------------------------------
 
@@ -697,19 +842,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=191;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=194;
 
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=93;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=214;
 
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
 
 --
 -- AUTO_INCREMENT for table `wp_termmeta`
@@ -733,7 +878,7 @@ ALTER TABLE `wp_term_taxonomy`
 -- AUTO_INCREMENT for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `wp_users`
