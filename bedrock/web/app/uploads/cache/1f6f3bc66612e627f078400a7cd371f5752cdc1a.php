@@ -2,12 +2,13 @@
   <div class="secao secao3">
     <div class="container">
       <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-2 rodape-box">
             <h4><img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icon.png">Fale conosco</h4>
             <div class="horizontal-separator"></div>
-            <span style="color: #ff5800; font-size: 20px; font-family: 'Roboto', sans-serif; font-weight: 700;">0800 626-850</span>
+            <span class="d-none d-md-block" style="color: #ff5800; font-size: 20px; font-family: 'Roboto', sans-serif; font-weight: 700;">0800 626-850</span>
+            <a href="#" class="botao-numero col-md-12 d-md-none">0800 626-850</a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 rodape-box">
             <h4><img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icon.png">Onde estamos</h4>
             <div class="horizontal-separator"></div>
             <ul class="onde-estamos">
@@ -25,12 +26,15 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-5" style="margin-top: 45px">
-          <a href="#" style="float: left"><img src="<?php echo get_template_directory_uri() ?>/assets/images/fb.png"></a>
-          <div style="width: 1px; height: 30px; background-color: #747474; margin-left: 30px; margin-right: 30px; float: left;"></div>
-          <a href="#" style="float: left"><img src="<?php echo get_template_directory_uri() ?>/assets/images/ins.png"></a>
-          <div style="width: 1px; height: 30px; background-color: #747474; margin-left: 30px; margin-right: 30px; float: left;"></div>
-          <a href="#" style="float: left"><img src="<?php echo get_template_directory_uri() ?>/assets/images/in.png"></a>
+        <div class="col-md-5 redes-sociais" style="margin-top: 45px">
+          <div style="display: inline-block;">
+            <a href="#" style="float: left"><img src="<?php echo get_template_directory_uri() ?>/assets/images/fb.png"></a>
+            <div style="width: 1px; height: 30px; background-color: #747474; margin-left: 30px; margin-right: 30px; float: left;"></div>
+            <a href="#" style="float: left"><img src="<?php echo get_template_directory_uri() ?>/assets/images/ins.png"></a>
+            <div style="width: 1px; height: 30px; background-color: #747474; margin-left: 30px; margin-right: 30px; float: left;"></div>
+            <a href="#" style="float: left"><img src="<?php echo get_template_directory_uri() ?>/assets/images/in.png"></a>
+            <div class="clear"></div>
+          </div>
         </div>
       </div>
     </div>

@@ -41,7 +41,8 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/advanced-custom-fields": "5.7.12",
-    "wpackagist-plugin/contact-form-7": "5.1.1"
+    "wpackagist-plugin/contact-form-7": "5.1.1",
+    "wpackagist-plugin/responsive-menu":"3.1.18"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

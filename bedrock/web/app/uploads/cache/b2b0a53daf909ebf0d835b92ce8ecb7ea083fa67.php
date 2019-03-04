@@ -1,4 +1,4 @@
-<div class="container container-form">
+<div class="container container-form d-none d-md-block">
   <div class="col-md-5 offset-md-7 form-box">
     <div class="row">
       <div class="box-title">
@@ -22,12 +22,12 @@
                   <img src="<?php the_field('imagem_1_secao_1') ?>">
                   <h3><?php the_field('titulo_da_imagem_1_secao_1') ?></h3>
               </div>
-              <div class="separator"></div>
+              <div class="separator d-none d-md-block"></div>
               <div class="image-box">
                   <img src="<?php the_field('imagem_2_secao_1') ?>">
                   <h3><?php the_field('titulo_da_imagem_2_secao_1') ?></h3>
               </div>
-              <div class="separator"></div>
+              <div class="separator d-none d-md-block"></div>
               <div class="image-box">
                   <img src="<?php the_field('imagem_3_secao_1') ?>">
                   <h3><?php the_field('titulo_da_imagem_3_secao_1') ?></h3>
@@ -46,7 +46,6 @@
         <p><?php the_field('texto_secao2') ?></p>
       </div>
     </div>
-        <!-- carousel -->
     
     <div class="row">
         <div class="col-md-6">
@@ -79,6 +78,21 @@
         </div>
 
 
+    </div>
+  </div>
+</div>
+
+<div class="secao secao1 d-md-none">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 form-box">
+        <div class="row">
+          <div class="box-title">
+            <h2>Insira aqui seus dados:</h2>
+          </div>
+            <?php echo do_shortcode('[contact-form-7 id="55" title="Form Página Principal"]') ?>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -14,6 +14,10 @@ h5 {
   color: #3b3b3b;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 h2 {
   margin-bottom: 35px;
   font-size: 30px;
@@ -105,6 +109,7 @@ a {
 }
 
 .menu-fixo {
+  visibility: hidden;
   transition: all 0.2s ease 0s;
   top: -77px;
   z-index: 9999;
@@ -309,13 +314,13 @@ ul.onde-estamos li {
 }
 
 .form-box .wpcf7-form input[type=submit]:hover {
-  background-color: #ef5300;
-  border-bottom: 5px solid #c64400;
+  background-color: #c64400;
+  border-bottom: 5px solid #ff5800;
   color: #fff;
 }
 
 .form-box .wpcf7-form input[type=submit]:focus {
-  background-color: #c64400;
+  background-color: #a43800;
   border-bottom: 5px solid #ff5800;
   color: #fff;
 }
@@ -336,4 +341,66 @@ ul.onde-estamos li {
 .rodape span {
   color: #747474 !important;
   font-size: 12px !important;
+}
+
+.botao-numero {
+  transition: all 0.2s ease 0s;
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #ff5800;
+  border-bottom: 5px solid #c64400;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+.botao-numero:hover {
+  background-color: #c64400;
+  border-bottom: 5px solid #ff5800;
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  .rodape {
+    text-align: center;
+  }
+
+  .redes-sociais {
+    text-align: center;
+  }
+
+  ul.onde-estamos {
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+
+  .rodape-box {
+    margin-top: 40px;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+  }
+
+  .carousel-control-next {
+    right: 0;
+  }
+
+  .secao {
+    padding-top: 65;
+    padding-bottom: 65;
+  }
+
+  .image-box {
+    margin-bottom: 25px;
+    display: inline-block;
+    text-align: center;
+    width: 100% !important;
+  }
 }

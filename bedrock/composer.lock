@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c2b6b71c69fd0d7ae008e20e3e940aa",
+    "content-hash": "a29170aa788984facef765a25cb449b5",
     "packages": [
         {
             "name": "composer/installers",
@@ -555,6 +555,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/responsive-menu",
+            "version": "3.1.18",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/responsive-menu/",
+                "reference": "tags/3.1.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/responsive-menu.3.1.18.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/responsive-menu/"
         }
     ],
     "packages-dev": [
